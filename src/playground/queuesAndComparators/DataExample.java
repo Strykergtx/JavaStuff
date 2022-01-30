@@ -17,8 +17,8 @@ public class DataExample implements Comparable<DataExample> {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) return true;          //IF SAME ADDRESS THEN RETURN TRUE, BECAUSE ONE ADDRESS CANNOT HAVE 2 DIFFERENT OBJECTS ITS POINTING TO
+        if (o == null || getClass() != o.getClass()) return false; // getClass() checks the hashcode value
         DataExample that = (DataExample) o;
         return dataA == that.dataA;
     }
