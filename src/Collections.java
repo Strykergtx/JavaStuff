@@ -56,7 +56,7 @@ public class Collections {
 
         //multi-dimensional arrays in java
 
-       // Two dimensional array:
+       // Two dimensional array:---------------------------------------------------------
        int[][] twoD_arr = new int[3][3];
 
        //individual insert into rows
@@ -71,12 +71,17 @@ public class Collections {
             System.out.println();
         }
 
-       //Three dimensional array:
+        //you can also do-
+        int[][] arr2d = new int[5][];  //only mentioning rows, so columns are fixed
+        //
+       // int[][] arr2dx = new int[][5];  -not possible
+        
+
+       //Three dimensional array:---------------------------------------------------
        int[][][] threeD_arr = new int[10][20][30];
 
        //3 dimensional initialization
         int[][][] multi3 = { { { 1, 2 }, { 3, 4 } }, { { 5, 6 }, { 7, 8 } } };
-
         int multi[][] = { {2,7,9},{3,6,1},{7,4,2} };
 
         // printing 2D array

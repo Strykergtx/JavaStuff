@@ -43,7 +43,6 @@ public class main {
         AbstractMap<Integer,Integer> z = new HashMap<>();//this one has some extra methods but does not have the Map methods
 
 
-
         //So what are interfaces ?
         //They create a contract for behaviour, if you use that interface as a substitute for an argument or reference type
         //make sure the instance you are creating on that reference has all required functions accessible via the interface.
@@ -51,8 +50,6 @@ public class main {
         //So when you make future classes that implement a certain Interface I, you should make sure all the required and important
         //functions needed for the usage of the future class are Over-ridden by this future class, and it has no extra functions in it which
         //are deemed necessary for the functioning of this future class.
-
-
 
 
 
