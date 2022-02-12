@@ -75,7 +75,7 @@ public class Collections {
         int[][] arr2d = new int[5][];  //only mentioning rows, so columns are fixed
         //
        // int[][] arr2dx = new int[][5];  -not possible
-        
+
 
        //Three dimensional array:---------------------------------------------------
        int[][][] threeD_arr = new int[10][20][30];
